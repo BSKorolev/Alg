@@ -1,12 +1,13 @@
+//simple multiplier
 #include <iostream>
 using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Rus");
-	cout << "Введите число:" << endl;
+	cout << "Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®:" << endl;
 	int x;
 	cin >> x;
-	int  n3 = 1; //берём числа равные 1 как K,L,M =0
+	int  n3 = 1; //ГЎГҐГ°ВёГ¬ Г·ГЁГ±Г«Г  Г°Г ГўГ­Г»ГҐ 1 ГЄГ ГЄ K,L,M =0
 	while (n3 <= x) 
 	{
 		int n5 = 1;
